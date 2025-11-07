@@ -1,0 +1,30 @@
+body {
+  font-family: Poppins, sans-serif;
+  background: #f5f7fb;
+  text-align: center;
+  margin: 0;
+}
+.card {
+  margin: 30px auto;
+  background: white;
+  border-radius: 14px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 20px;
+  width: 90%;
+  max-width: 400px;
+}
+input, button {
+  padding: 10px;
+  margin: 8px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+button {
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+button:hover { background: #0056b3; }
+#status { color: #444; font-size: 14px; }
+#location { color: #007bff; font-weight: bold; }
